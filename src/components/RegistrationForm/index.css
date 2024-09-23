@@ -1,0 +1,122 @@
+/* Write your CSS code here */
+.registration-form-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 25%;
+  min-height: 35%;
+  max-height: auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.label-container {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.name-input {
+  color: #9aa5b1;
+  background-color: #ffffff;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+  outline: none;
+}
+
+.error-name-input {
+  border: 1px solid #ff0b37;
+  background-color: #fef2f4;
+}
+
+.div-btn {
+  text-align: center;
+}
+.sub-btn {
+  background-color: #ea580c;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fef2f4;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+.error-msg {
+  line-height: 0pc;
+  color: #ff0b37;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+.successful-submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 25%;
+  min-height: 35%;
+  max-height: auto;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.submit-text {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+.another-response-btn {
+  background-color: #ea580c;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fef2f4;
+  font-size: 13px;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .reg-form {
+    width: 60%;
+    max-height: 20%;
+  }
+  .successful-submit {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .reg-form {
+    width: 90%;
+  }
+  .successful-submit {
+    width: 90%;
+  }
+}
